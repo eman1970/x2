@@ -4,7 +4,7 @@ export const ShopView = () => {
     return (
         <div>
             
-            <h1>This is the ShopView</h1>
+            <h1>This is the shopView</h1>
             
         </div>
     )

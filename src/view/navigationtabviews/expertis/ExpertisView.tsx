@@ -3,7 +3,7 @@ import React from 'react'
 export const ExpertisView = () => {
     return (
         <div>
-            <h1>This is the ExpertisView</h1>
+            <h1>This is the expertisView</h1>
         </div>
     )
 }
