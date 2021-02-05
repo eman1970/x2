@@ -21,17 +21,17 @@ export const DesktopNavigation = () => {
     return (
         <div className="desktopNavigationWrapper">
 
-            <img className="navigationLogotype"
+            <img onClick={() => history.push(RoutingPath.homeView)} className="navigationLogotype"
                 src={Logotype}
                 alt={''} />
-                <DesktopNavigationTabs />
+            <DesktopNavigationTabs />
 
-<div className="desktopNavigationTabs">
-    {displaySignInButtonOnAuthetication()}
-    </div>
-           
+            <div className="desktopNavigationTabs">
+                {displaySignInButtonOnAuthetication()}
+            </div>
+
         </div>
     )
 }
 
- 
+
